@@ -3,6 +3,10 @@ package com.bitheads.braincloud.client;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import com.bitheads.braincloud.client.BrainCloudClient;
+import com.bitheads.braincloud.client.IServerCallback;
+import com.bitheads.braincloud.client.ServiceName;
+import com.bitheads.braincloud.client.ServiceOperation;
 import com.bitheads.braincloud.services.AsyncMatchService;
 import com.bitheads.braincloud.services.AuthenticationService;
 import com.bitheads.braincloud.services.DataStreamService;
